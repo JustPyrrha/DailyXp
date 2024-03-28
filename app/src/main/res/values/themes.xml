@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Used to override in night/dark mode -->
+    <style name="NightAdjusted.Theme.Xp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Xp" parent="NightAdjusted.Theme.Xp" />
+
+    <style name="NightAdjusted.Theme.Splash" parent="Theme.SplashScreen" />
+    <style name="Theme.Xp.Splash" parent="NightAdjusted.Theme.Splash">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground_monochrome</item>
+        <item name="postSplashScreenTheme">@style/Theme.Xp</item>
+    </style>
+</resources>

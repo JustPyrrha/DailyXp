@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "gay/pyrrha/dailyxp/data/quest.proto";
+
+option java_package = "gay.pyrrha.dailyxp.core.datastore";
+option java_multiple_files = true;
+
+message QuestsProto {
+  int64 total_completed_count = 1;
+  repeated QuestProto quests = 2;
+}

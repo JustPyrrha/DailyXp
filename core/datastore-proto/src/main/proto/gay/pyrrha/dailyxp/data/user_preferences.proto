@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "gay.pyrrha.dailyxp.core.datastore";
+option java_multiple_files = true;
+
+import "google/protobuf/timestamp.proto";
+
+import "gay/pyrrha/dailyxp/data/theme.proto";
+import "gay/pyrrha/dailyxp/data/theme_mode.proto";
+
+message UserPreferences {
+  bool hide_onboarding = 1;
+  ThemeModeProto theme_mode = 2;
+  ThemeProto theme = 3;
+  bool amoled_dark = 4;
+}

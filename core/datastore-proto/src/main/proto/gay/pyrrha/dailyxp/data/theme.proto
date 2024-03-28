@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "gay.pyrrha.dailyxp.core.datastore";
+option java_multiple_files = true;
+
+enum ThemeProto {
+  THEME_UNSPECIFIED = 0;
+  THEME_DEFAULT = 1;
+  THEME_DYNAMIC = 2;
+
+  // catppuccin themes
+  THEME_LATTE = 17;
+  THEME_FRAPPE = 18;
+  THEME_MACCHIATO = 19;
+  THEME_MOCHA = 20;
+
+  // pride
+  THEME_TRANS_PRIDE = 30;
+}

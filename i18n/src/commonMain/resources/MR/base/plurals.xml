@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <plurals name="quest_available">
+        <item quantity="one">Available again tomorrow at %2$s</item>
+        <item quantity="other">Available again in %1$s days</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">Day</item>
+        <item quantity="other">Days</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">Month</item>
+        <item quantity="other">Months</item>
+    </plurals>
+</resources>

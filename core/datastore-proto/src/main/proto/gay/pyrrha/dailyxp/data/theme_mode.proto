@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "gay.pyrrha.dailyxp.core.datastore";
+option java_multiple_files = true;
+
+enum ThemeModeProto {
+  THEME_MODE_UNSPECIFIED = 0;
+  THEME_MODE_SYSTEM = 1;
+  THEME_MODE_LIGHT = 2;
+  THEME_MODE_DARK = 3;
+}

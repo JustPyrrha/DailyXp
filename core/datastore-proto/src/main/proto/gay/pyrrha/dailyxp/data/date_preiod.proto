@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "gay.pyrrha.dailyxp.core.datastore";
+option java_multiple_files = true;
+
+message DatePeriod {
+  reserved 1; // used to be years, but now unused
+  int32 months = 2;
+  int32 days = 3;
+}
